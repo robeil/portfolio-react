@@ -1,0 +1,14 @@
+.btn {
+  font-size: large;
+}
+nav {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: x-large;
+}
+.background-img {
+  /*background-image: url('/portfolio/src/Image/background.jpg'); */ /*http://thumbpress.com/wp-content/uploads/2013/05/Perfect-Timed-Photos-8.jpg*/
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+}
