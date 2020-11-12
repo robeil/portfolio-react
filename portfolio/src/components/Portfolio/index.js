@@ -9,22 +9,21 @@ import DayImg from '../../Image/screenshot/DayPlanner.png';
 import RobeilImg from '../../Image/screenshot/robeil.jpg';
 
 const Portfolio = () => {
-        return (
-            <>
-                <Header />
-                <div classNameName="landingImg"
-                    style={{
-                        backgroundImage: 'url(' + backgroundImg + ')',
-                        backgroundSize: "cover",
-                        height: "100vh",
-                        color: "#f5f5f5"
-                    }}>
-                    <div className="font-style">
-                        <h1>Portfolio</h1>
-                    </div>
-                    <div className="card-deck">
-                    <div className="card">
-                       
+    return (
+        <>
+            <Header />
+            <div classNameName="landingImg"
+                style={{
+                    backgroundImage: 'url(' + backgroundImg + ')',
+                    backgroundSize: "cover",
+                    height: "100vh",
+                    color: "#f5f5f5"
+                }}>
+                <div className="font-style">
+                    <h1>Portfolio</h1>
+                </div>
+                <div className="container">
+              
                         <div className="col-4">
                             <div className="card text-white bg-dark box">
                                 <img src={CovidImg} className="card-img-top" alt="covid img" />
@@ -37,7 +36,6 @@ const Portfolio = () => {
                                     <p class="card-text"></p>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     <div className="row-2">
                         <div className="col-4">
@@ -54,8 +52,6 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="container">
                     <div className="row-2">
                         <div className="col-4">
                             <div className="card text-white bg-dark box">
@@ -63,16 +59,12 @@ const Portfolio = () => {
                                 <div class="card-body">
                                     <h4 class="card-title">Day Planner</h4>
                                     <a href="https://github.com/Robeil/day-planner.git">GitHub Repo</a>
-                                   
-
-                                    
                                     <a href="https://robeil.github.io/day-planner/">Deployed link</a>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
 
                     <div className="row-2">
                         <div className="col-4 ">
@@ -90,13 +82,13 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                
-                <Icon />
-            </div>
+
+                    <Icon />
                 </div>
-               
-            </>
-        )
-    }
+
+            </div>
+        </>
+    )
+}
 
 export default Portfolio;
