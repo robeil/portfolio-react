@@ -6,9 +6,9 @@ import Icon from '../Icon/index';
 import CovidImg from '../../Image/screenshot/CovidTracker.png';
 import Jobimg from '../../Image/screenshot/JobFinder.png';
 import DayImg from '../../Image/screenshot/DayPlanner.png';
-import RobeilImg from '../../Image/screenshot/robeil.jpg';
 
 const Portfolio = () => {
+
     return (
         <>
             <Header />
@@ -23,9 +23,9 @@ const Portfolio = () => {
                     <h1>Portfolio</h1>
                 </div>
                 <div className="container">
-              
+                    <div className="row">
                         <div className="col-4">
-                            <div className="card text-white bg-dark box">
+                            <div className="card text-white bg-dark">
                                 <img src={CovidImg} className="card-img-top" alt="covid img" />
                                 <div class="card-body">
                                     <h4 class="card-title">Covid Tracker</h4>
@@ -36,10 +36,9 @@ const Portfolio = () => {
                                     <p class="card-text"></p>
                                 </div>
                             </div>
-                    </div>
-                    <div className="row-2">
+                        </div>
                         <div className="col-4">
-                            <div className="card text-white bg-dark box">
+                            <div className="card text-white bg-dark">
                                 <img src={Jobimg} className="card-img-top" alt="job finder img" />
                                 <div class="card-body">
                                     <h4 class="card-title">Job Finder</h4>
@@ -51,41 +50,22 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="row-2">
                         <div className="col-4">
-                            <div className="card text-white bg-dark box">
+                            <div className="card text-white bg-dark">
                                 <img src={DayImg} className="card-img-top" alt="day planner img" />
                                 <div class="card-body">
                                     <h4 class="card-title">Day Planner</h4>
                                     <a href="https://github.com/Robeil/day-planner.git">GitHub Repo</a>
+                                    <br>
+                                    </br>
                                     <a href="https://robeil.github.io/day-planner/">Deployed link</a>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                         </div>
+                        <Icon />
                     </div>
-
-                    <div className="row-2">
-                        <div className="col-4 ">
-                            <div className="card text-white bg-dark box">
-                                <img src={RobeilImg} className="card-img-top" alt="robeil img" />
-                                <div class="card-body">
-                                    <h4 class="card-title">Personal Page</h4>
-                                    <a href="https://twitter.com/home">Twitter
-                                        </a>
-                                    <br>
-                                    </br>
-                                    <a href="https://www.facebook.com/robeil.brhanemeskel.3">Facebook</a>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <Icon />
                 </div>
-
             </div>
         </>
     )
