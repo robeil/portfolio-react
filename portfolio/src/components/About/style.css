@@ -1,7 +1,11 @@
-.font-style {
+.card-text, h2 {
   color: black;
-  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: x-large;
+  font-family: 'Cormorant Garamond', serif;
+  float: right;
 }
 img {
-  border-radius: "50%";
+  clear: both;
+  border-radius: "30%";
+  
 }
