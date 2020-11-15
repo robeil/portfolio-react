@@ -19,9 +19,7 @@ const Portfolio = () => {
                     height: "100vh",
                     color: "#f5f5f5"
                 }}>
-                <div className="font-style">
-                    <h1>Portfolio</h1>
-                </div>
+               
                 <div className="container">
                     <div className="row">
                         <div className="col-4">
