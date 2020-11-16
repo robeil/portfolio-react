@@ -1,11 +1,23 @@
-.card-text, h2 {
-  color: black;
-  font-size: x-large;
-  font-family: 'Cormorant Garamond', serif;
-  float: right;
+.card-text {
+	overflow: hidden;
+	color: black;
+	font-size: x-large;
+	font-family: 'Cormorant Garamond', serif;
+	float: right;
 }
+
 img {
-  clear: both;
-  border-radius: "30%";
-  
+	float: left;
+}
+.card {
+	top: 218px;
+	padding: 20px 12px;
+	width: 80%;
+}
+.pro-header {
+	overflow: hidden;
+	top: 891px;
+	background: #1abc9c;
+	color: white;
+	width: 100%;
 }
