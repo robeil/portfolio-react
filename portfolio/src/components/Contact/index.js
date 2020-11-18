@@ -9,7 +9,7 @@ class Contact extends React.Component {
     render() {
         return (
             <>
-
+            
                 <div className="landingImg"
                     style={{
                         backgroundImage: 'url(' + backgroundImg + ')',
@@ -24,7 +24,7 @@ class Contact extends React.Component {
                     </div>
                     <Header />
                     <div className="contact">
-                        <form className="mx-auto" style={{ width: "60%" }}>
+                        <form className="contact mx-auto"style={{ width: "60%"}}>
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Full Name</label>
                                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full name" />
@@ -37,13 +37,14 @@ class Contact extends React.Component {
                                 <label for="exampleFormControlTextarea1">Massage</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"
                                     type="text" placeholder="Write your message here" />
+                                    <br></br>
                                 <button type="submit" className="btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>
+                 
                     <Icon />
                 </div>
-
             </>
         )
     }

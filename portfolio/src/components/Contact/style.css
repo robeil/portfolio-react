@@ -5,9 +5,13 @@
 	display: flex;
 	background-size: cover;
 	background-size: 100%;
-
 }
-.contact {
-	top: -20%;
-	position: absolute;
+form {
+	margin-bottom: 0px;
+}
+.contact,
+.mx-auto {
+	width: 60%;
+	margin: 20px;
+
 }
