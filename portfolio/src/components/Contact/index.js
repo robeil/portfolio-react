@@ -23,21 +23,21 @@ class Contact extends React.Component {
                         </Animation>
                     </div>
                     <Header />
-
-                    <div>
-                        <form className="form-group mx-auto" style={{ width: "60%", top: "80%" }}>
-                            <label for="exampleFormControlInput1">Name</label>
-                            <input type="name" className="form-control" placeholder="Full name" />
-                            <label for="exampleFormControlInput1">Email</label>
-                            <input type="email" className="form-control" placeholder="Email address" />
-                            <label for="exampleFormControlTextarea1">Massage</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"
-                                type="text" placeholder="Write your message here"></textarea>
-                            <br>
-                            </br>
+                    <div className="contact">
+                        <form className="mx-auto" style={{ width: "60%" }}>
+                            <div className="form-group">
+                                <label for="exampleInputEmail1">Full Name</label>
+                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full name" />
+                            </div>
+                            <div className="form-group">
+                                <label for="exampleInputPassword1">Email</label>
+                                <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Email address" />
+                            </div>
                             <div>
-                                <label for="submit"></label>
-                                <button className="btn btn-primary submit" type="submit">submit</button>
+                                <label for="exampleFormControlTextarea1">Massage</label>
+                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"
+                                    type="text" placeholder="Write your message here" />
+                                <button type="submit" className="btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>
