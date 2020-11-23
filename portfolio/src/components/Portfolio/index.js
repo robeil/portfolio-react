@@ -13,133 +13,120 @@ const Portfolio = () => {
     return (
         <>
             <Header />
-
-            <div className="card text-white bg-secondary mb-3 project-0" style={{ maxWidth: "540px" }}>
-                <div class="row no-gutters">
-                    <img src={CovidImg} className="card-img-top" alt="covid img" />
-                    <div class="card-body">
-                        <a href="https://github.com/ShepLT1/covid-tracker.git">GitHub Repo</a>
-                        <br>
-                        </br>
-                        <a href="https://sheplt1.github.io/covid-tracker/">Deployed link</a>
+            <div className="project">
+                <div className="card mb-3 mx-auto " style={{ width: "90%" }}>
+                    <div className="row no-gutters">
+                        <div className="col-md-4">
+                            <img src={CovidImg} className="card-img" alt="Covid" />
+                        </div>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">Fitness Tracker</h5>
+                                <a href="https://github.com/ShepLT1/covid-tracker.git">GitHub Repo</a>
+                                <br>
+                                </br>
+                                <a href="https://sheplt1.github.io/covid-tracker/">Deployed link</a>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
+                                There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                              
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-title-0 mx-auto">
-                <h3>Covid Tracker</h3>
-                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
-                    There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Tools used</h3>
-                <h3>APIS Used</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <hr className="line-0"></hr>
-            </div>
-            <div className="card text-white bg-secondary mb-3 project-1" style={{ maxWidth: "540px" }}>
-                <div class="row no-gutters">
-                    <img src={Jobimg} className="card-img-top" alt="job finder img" />
-                    <div class="card-body">
-                        <a href="https://github.com/saikitjk/JobFinder.git">GitHub Repo</a>
-                        <br>
-                        </br>
-                        <a href="https://uw-jobfinder.herokuapp.com/">Deployed link</a>
+                {/* project 2 */}
+                <div className="card mb-3 mx-auto" style={{ width: "90%" }}>
+                    <div className="row no-gutters">
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">Job Finder</h5>
+                                <a href="https://github.com/saikitjk/JobFinder.git">GitHub Repo</a>
+                                <br>
+                                </br>
+                                <a href="https://uw-jobfinder.herokuapp.com/">Deployed link</a>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
+                                 There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                          
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <img src={Jobimg} className="card-img" alt="Job Finder" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-title-1 mx-auto">
-                <h3>Job Finder</h3>
-                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
-                There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Tools used</h3>
-                <h3>APIS Used</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <hr className="line-1"></hr>
-            </div>
-            <div className="card text-white bg-secondary mb-3 project-2" style={{ maxWidth: "540px" }}>
-                <div class="row no-gutters">
-                    <img src={NoteImg} className="card-img-top" alt="day planner img" />
-                    <div class="card-body">
-                        <a href="https://github.com/Robeil/note-taker.git">GitHub Repo</a>
-                        <br>
-                        </br>
-                        <a href="https://express-note-app.herokuapp.com/">Deployed link</a>
+                {/* project 3 */}
+                <div className="card mb-3 mx-auto" style={{ width: "90%" }}>
+                    <div className="row no-gutters">
+                        <div className="col-md-4">
+                            <img src={NoteImg} className="card-img" alt="Note Taker" />
+                        </div>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">Note Taker</h5>  
+                                <a href="https://github.com/Robeil/note-taker.git">GitHub Repo</a>
+                                <br>
+                                </br>
+                                <a href="https://express-note-app.herokuapp.com/">Deployed link</a> 
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
+                                There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                              
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-title-2 mx-auto">
-                <h3>Note Tacker</h3>
-                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
-                There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Tools used</h3>
-                <h3>APIS Used</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <hr className="line-2"></hr>
-            </div>
-            <div className="card text-white bg-secondary mb-3 project-3" style={{ maxWidth: "540px" }}>
-                <div class="row no-gutters">
-                    <img src={FitnessImg} className="card-img-top" alt="day planner img" />
-                    <div class="card-body">
-                        <a href="https://github.com/Robeil/note-taker.git">GitHub Repo</a>
-                        <br>
-                        </br>
-                        <a href="https://express-note-app.herokuapp.com/">Deployed link</a>
+                {/* project 4 */}
+                <div className="card mb-3 mx-auto" style={{ width: "90%" }}>
+                    <div className="row no-gutters">
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">Fitness Tracker</h5>
+                                <a href="https://github.com/Robeil/fitness-tracker.git">GitHub Repo</a>
+                                <br>
+                                </br>
+                                <a href="https://obscure-wave-35182.herokuapp.com/">Deployed link</a>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
+                                There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <h3>Discovery:</h3>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
+                               
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <img src={FitnessImg} className="card-img" alt="Fitness Tracker" />
+                        </div>
                     </div>
                 </div>
+                <Icon />
             </div>
-            <div class="project-title-3 mx-auto">
-                <h3>Fitness Tracker</h3>
-                <p>The Covid-19 Dashboard displays up-to-date API data on the spread of Covid-19 for any state the user specifies.
-            There is a landing page featuring a clickable map, and the website is responsive and screen-reader accessible.</p>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Discovery:</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <h3>Tools used</h3>
-                <h3>APIS Used</h3>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <li>Wrote Initial Project Proposal and spec'd out user requirements.</li>
-                <hr className="line-3"></hr>
-            </div>
-
-            <Icon />
         </>
     )
 }
