@@ -40,6 +40,7 @@ const About = () => {
                                     <li><b>Full name</b> : Robeil Aregawi</li>
                                     <li><b>Phone number</b> : 206-602-5164</li>
                                     <li><b>Email address</b> : silukeen1@gmail.com</li>
+                                    <li>try agin about that</li>
                                 </ul>
                             </div>
                         </div>
